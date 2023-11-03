@@ -1,0 +1,391 @@
+@media screen and (min-device-width: 350px) {
+    .navBAR {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+
+    }
+    .content {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+ 
+
+    .section-one {
+        font-size: 2rem;
+        margin-top: 5rem;
+        color: white;
+        margin-left: 3rem;
+        font-weight: 700;
+    }
+
+    .section h3 {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 4rem;
+        font-weight: 600;
+        padding: 5px;
+    }
+
+    .input-field {
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    input {
+        width: 18rem;
+        height: 3rem;
+        border-radius: 10px;
+    }
+
+    input::placeholder { 
+        color: red;
+        opacity: 1;
+    }
+
+    .btn-submit {
+        background-color: black;
+        color: wheat;
+        border: 1px solid white;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 8rem;
+        margin-top: 10px;
+    }
+
+    .card-main {
+        margin: 10px;
+        padding: 10px;
+        margin-left: 2rem;
+    }
+
+    .card {
+        background-color: white;
+        color: black;
+        width: 13rem;
+        border-radius: 10px;
+        margin: 30px;
+    }
+
+    .card-one {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .card-one p {
+        font-weight: 700;
+    }
+    
+    .card1 {
+        color: green;
+    }
+    
+    span {
+        font-weight: 200;
+        margin-left: 20px;
+    }
+    
+    .spanA {
+        color: red;
+    }
+    
+    .bitcoin {
+        margin-top: 8px;
+    }
+    
+    .amount {
+        font-weight: 600;
+        margin-top: 8px;
+    }
+    
+    .span {
+        color: green;
+    }
+
+    .solana img {
+        width: 40px;
+    }
+    
+    .information {
+        /* display: flex; */
+        justify-content: space-around;
+        margin-top: 4rem;
+        /* text-align: center; */
+        
+    }
+
+    .infoOne h1 {
+        margin-left: 15px;
+        font-size: 2rem;
+        background: #1321DB;
+        background: linear-gradient(to right, #1321DB 0%, #9E4410 50%, #260303 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 2rem;
+    }
+    
+    .infoOne h3 {
+        margin: 3rem;
+        font-weight: bold;
+        color: #324d67;
+    }
+    
+    .infoImg img {
+        width: 20rem;
+        height: 25rem;
+        border-radius: 10px;
+        margin-left: 25px;
+        margin-bottom: 30px;
+    }
+    
+    .btn-start {
+        background-color: black;
+        color: wheat;
+        margin-left: 13px;
+        border: 1px solid white;
+        padding: 10px;
+        width: 15rem;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+    }
+    
+    .footer {
+        padding: 30px;
+        /* height: 100%; */
+    }
+    
+    .footer h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        /* height: 100%; */
+        background: #851738;
+        background: linear-gradient(to right, #851738 0%, #27591B 50%, #752201 51%, #6B0808 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+}
+
+
+
+
+@media screen and (min-device-width: 1030px) {
+    .navBAR {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+
+    .content {
+        display: flex;
+        gap: 25px;
+        margin-top: 8px;
+    }
+
+    .button {
+        background-color: black;
+        color: wheat;
+        padding: 8px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-top: 8px;
+        margin-right: 10px;
+        border: 1px solid white;
+        display: block;
+    }
+
+    .btn {
+        background-color: white;
+        color: black;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: 1px solid white;
+        margin-left: 5px;
+        margin-top: 8px;
+    }
+
+    .main-content {
+        display: flex;
+        gap: 100px;
+    }
+    
+    .main-content h2 {
+        font-size: 35px;
+    }
+
+    .section-one {
+        font-size: 2.8rem;
+        margin-top: 10rem;
+        color: white;
+        margin-left: 10rem;
+        font-weight: 700;
+    }
+
+    .section h3 {
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        color: white;
+        margin-left: 10rem;
+        font-weight: 600;
+    }
+
+    .input-field {
+        margin-top: 1.5rem;
+        margin-left: 9.5rem;
+        /* margin-right: 50px; */
+        /* padding: 10px; */
+    }
+    input {
+        /* padding: 10px; */
+        width: 30rem;
+        /* margin: 10px; */
+        /* border: 1px solid black; */
+        /* height: 3rem; */
+        border-radius: 10px;
+    }
+
+    .input-field::placeholder { 
+        color: red;
+        
+    }
+
+    .btn-submit {
+        background-color: black;
+        color: wheat;
+        margin-left: 13px;
+        border: 1px solid white;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 13rem;
+    }
+
+    .card-main {
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        margin-top: -60px;
+        margin-left: 12rem;
+        /* text-align: center; */
+    }
+    
+    .card {
+        background-color: white;
+        color: black;
+        width: 13rem;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .card-one {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .card-one p {
+        font-weight: 700;
+    }
+    
+    .card1 {
+        color: green;
+    }
+    
+    span {
+        font-weight: 200;
+        margin-left: 20px;
+    }
+    
+    .spanA {
+        color: red;
+    }
+    
+    .bitcoin {
+        margin-top: 8px;
+    }
+    
+    .amount {
+        font-weight: 600;
+        margin-top: 8px;
+    }
+    
+    .span {
+        color: green;
+    }
+
+    .solana img {
+        width: 40px;
+    }
+    
+    .information {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 8rem;
+    }
+
+    .infoOne h1 {
+        font-size: 2rem;
+        background: #1321DB;
+        background: linear-gradient(to right, #1321DB 0%, #9E4410 50%, #260303 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 2rem;
+    }
+    
+    .infoOne h3 {
+        margin: 3rem;
+        font-weight: bold;
+        color: #324d67;
+    }
+    
+    .infoImg img {
+        width: 25rem;
+        height: 30rem;
+        border-radius: 10px;
+    }
+
+    .btn-start {
+        background-color: black;
+        color: wheat;
+        margin-left: 13px;
+        border: 1px solid white;
+        padding: 10px;
+        width: 15rem;
+        font-size: 15px;
+        border-radius: 10px;
+        margin-bottom: 13rem;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+    
+    .footer h1 {
+        text-align: center;
+        font-size: 2rem;
+        background: #851738;
+        background: linear-gradient(to right, #851738 0%, #27591B 50%, #752201 51%, #6B0808 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    .myBtn {
+        display: flex;
+    }
+    
+    .circle {
+        border: 5px solid black;
+    }
+}
